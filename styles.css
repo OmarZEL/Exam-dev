@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffd5a4;
+    color: rgb(0, 0, 0);
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 150px; /* Taille du logo */
+    height: auto;
+}
+
+/* Style de la barre de navigation */
+nav {
+    background-color: #ffd5a4;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#btn-refresh {
+    margin-left: 180px; 
+}
+
+#nom {
+    margin-left: 190px; 
+}
+#description {
+    margin-left: 190px; 
+}
+#prix {
+    margin-left: 190px; }
+
+#ajouter-produit-btn {
+    margin-left: 190px; 
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    text-align: center; 
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #2c9730;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    width: 200px; 
+}
+
+footer {
+    background-color: #ffd5a4;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
